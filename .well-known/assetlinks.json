@@ -1,1 +1,5 @@
-[]
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.jshikaram.twa",
+               "sha256_cert_fingerprints": ["8D:E1:69:F4:00:A8:7C:CA:43:E3:53:9D:39:A2:2E:AE:60:8D:02:69:0E:D3:D0:32:F4:7D:6D:17:E9:50:15:D7"] }
+}]
