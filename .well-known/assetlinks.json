@@ -1,5 +1,5 @@
 [{
   "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.use_as_origin"],
-  "target" : { "namespace": "android_app", "package_name": "com.jshikaram.twa",
-               "sha256_cert_fingerprints": ["0D:1F:26:26:CD:39:8B:3C:DF:0B:0D:02:F4:54:C8:4F:98:82:D1:3E:10:66:5E:96:6D:46:C1:83:E5:9B:05:8A"] }
+  "target" : { "namespace": "android_app", "package_name": "com.melzhang.peanut",
+    "sha256_cert_fingerprints": ["27:67:8A:A3:A1:A4:44:52:CA:AE:67:07:A9:53:EE:2C:82:F4:78:70:0D:8F:6B:95:76:47:06:22:76:6E:7C:6F"] }
 }]
