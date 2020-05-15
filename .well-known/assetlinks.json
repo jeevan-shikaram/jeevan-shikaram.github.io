@@ -1,5 +1,5 @@
 [{
   "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.use_as_origin"],
   "target" : { "namespace": "android_app", "package_name": "com.jshikaram.peanuttypes",
-               "sha256_cert_fingerprints": ["2D:86:6D:58:79:59:3E:60:38:CA:CA:64:15:3B:4D:8E:5D:1C:3A:BF:C1:59:FA:B1:C8:66:8C:A9:82:7C:2F:1E"] }
+               "sha256_cert_fingerprints": ["3D:86:6D:58:79:59:3E:60:38:CA:CA:64:15:3B:4D:8E:5D:1C:3A:BF:C1:59:FA:B1:C8:66:8C:A9:82:7C:2F:1E"] }
 }]
