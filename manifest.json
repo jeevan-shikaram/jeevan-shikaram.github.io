@@ -30,5 +30,12 @@
   "display": "standalone",
   "background_color": "#3E4EB8",
   "theme_color": "#2F3BA2",
-  "scope": "/"
+  "scope": "/",
+  "android_package_name": "com.jshikaram.peanuttypes",
+  "prefer_related_applications": true,
+  "related_applications": [{
+    "id": "com.jshikaram.peanuttypes",
+    "platform": "chromeos_play",
+    "url": "https://play.google.com/store/apps/details?id=com.jshikaram.peanuttypes"
+  }]
 }
