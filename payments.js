@@ -37,7 +37,7 @@ function buy(sku) {
             .then(result => {
                 console.log(result ? "Has enrolled instrument." : "No enrolled instrument.");
 
-                request.show()
+                request.show().then((response) => response.complete('success'));
             })
             .catch(error => console.error(error.message));
     }
