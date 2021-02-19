@@ -42,3 +42,18 @@ function buy(sku) {
             .catch(error => console.error(error.message));
     }
 }
+
+async function getDetails(sku, log) {
+    try {
+          if (window.getDigitalGoodsService) {
+             service = await window.getDigitalGoodsService(PAYMENT_METHOD);
+             details = await service.getDetails([sku]);
+             log(JSON.stringify(details, null, 2)); 
+          } else {
+             log("window doesn't have getDigitalGoodsService."); 
+          }
+    } catch (error) {
+        log(error);
+    }
+}
+
