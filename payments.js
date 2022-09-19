@@ -44,10 +44,15 @@ function buy(sku) {
 }
 
 async function getDetails(sku, log) {
+    let startTime = performance.now();
     try {
           if (window.getDigitalGoodsService) {
              service = await window.getDigitalGoodsService(PAYMENT_METHOD);
+             let getServiceTime = performance.now();
              details = await service.getDetails([sku]);
+             let getGetDetailsTime = performance.now();
+             log(`GetDigitalGoodsService took ${getServiceTime - startTime} ms and`,
+                     `GetDetails took additional ${getGetDetailsTime - getServiceTime} ms`);
              log(JSON.stringify(details, null, 2)); 
           } else {
              log("window doesn't have getDigitalGoodsService."); 
@@ -57,3 +62,5 @@ async function getDetails(sku, log) {
     }
 }
 
+// Time how long Digital Goods Service takes to become available on cold load.
+getDetails('android.test.purchased', console.log);
