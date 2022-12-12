@@ -1,0 +1,35 @@
+{
+  "name": "Cursive",
+  "short_name": "Cursive",
+  "description": "The ChromeOS note taking app.",
+  "icons": [
+    {
+      "src": "https://cursive.apps.chrome/assets/icon_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cursive.apps.chrome/assets/icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://cursive.apps.chrome/",
+  "scope": "https://cursive.apps.chrome/",
+  "display": "standalone",
+  "note_taking": {
+    "new_note_url": "https://cursive.apps.chrome/new"
+  },
+  "user_preferences": {
+    "color_scheme": {
+      "light": {
+        "background_color": "#F8F9FA",
+        "theme_color": "#F8F9FA"
+      },
+      "dark": {
+        "background_color": "rgb(26, 26, 29)",
+        "theme_color": "rgb(26, 26, 29)"
+      }
+    }
+  }
+}
