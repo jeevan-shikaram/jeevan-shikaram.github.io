@@ -14,11 +14,10 @@
       "type": "image/png"
     }
   ],
-  "start_url": "https://cursive.apps.chrome/",
-  "scope": "https://cursive.apps.chrome/",
+  "start_url": "/",
   "display": "standalone",
   "note_taking": {
-    "new_note_url": "https://cursive.apps.chrome/new"
+    "new_note_url": "/new"
   },
   "user_preferences": {
     "color_scheme": {

@@ -32,11 +32,11 @@
       "type": "image/png",
       "purpose": "maskable"
     }],
-  "start_url": "https://jeevan-shikaram.github.io/index.html",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#3E4EB8",
   "theme_color": "#2F3BA2",
-  "scope": "https://jeevan-shikaram.github.io/",
+  "scope": "/",
   "android_package_name": "com.jshikaram.peanuttypes",
   "prefer_related_applications": true,
   "related_applications": [{
